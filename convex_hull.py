@@ -5,14 +5,16 @@ class Point:
 
     def initialize():
         points = [] 
-        points.append(Point(0, 3)) 
+        points.append(Point(1, 3)) 
         points.append(Point(2, 2)) 
         points.append(Point(1, 1)) 
         points.append(Point(2, 1)) 
         points.append(Point(3, 0)) 
         points.append(Point(0, 0)) 
         points.append(Point(3, 3)) 
-
+        points.append(Point(3, 2))
+        points.append(Point(5, 5))
+        points.append(Point(0, 5))
         # points.append(Point(0,0))
         # points.append(Point(1,1))
         # points.append(Point(2,1))
@@ -100,7 +102,7 @@ class Equations:
 
 hull = []
 points = Point.initialize()
-for i in range(7):   
+for i in range(10):   
     Equations.straightLineThroughTwoPoints(points, i)
 
 # y1 = points[index].y
