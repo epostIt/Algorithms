@@ -15,11 +15,6 @@ class Point:
         points.append(Point(3, 2))
         points.append(Point(5, 5))
         points.append(Point(0, 5))
-        # points.append(Point(0,0))
-        # points.append(Point(1,1))
-        # points.append(Point(2,1))
-        # points.append(Point(1,2))
-        # points.append(Point(3,3))
         print("Graph Initialized")
         return points
     
